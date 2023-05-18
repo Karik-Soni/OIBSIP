@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <title>Building the Web</title>
+    <link rel="icon" type="image/x-icon" href="images/web icon.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <!--Home Section-->
+    <div class="container-fluid">
+
+        <div id="header" class="row align-items-center">
+
+            <div id="logo" class="col-7">
+                <a href="#"><img src="images/Building the web.png" alt="Logo"></a>
+            </div>
+
+            <div id="nav" class="col-5">
+                <ul id="nav_item" class="nav" style="color:rgb(255, 252, 252);">
+                    <li id="navi1" class="nav-item">
+                        <a class="nav-link text-white" href="#home">Home</a>
+                    </li>
+                    <li id="navi2" class="nav-item">
+                        <a class="nav-link text-white" href="#topic">Topic</a>
+                    </li>
+                    <li id="navi3" class="nav-item">
+                        <a class="nav-link text-white" href="#content">Content</a>
+                    </li>
+                    <li id="navi4" class="nav-item">
+                        <a class="nav-link text-white" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    
+        <div class="row justify-content-center">
+            <div class="col-sm"> 
+                <img id="img1" src="images/Img 1.jpg" alt="Image" ">
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <!--Topic Section-->
+        <div id="topicI" class="container">
+            <div class="col-12">
+                <h1 id="topic">Web Development and Designing Topics</h1>
+            </div>
+            
+            <div id="topic_list" class="col-12 dropdown dropright">
+                <br>
+                <div>    
+                    <a href="#html"><button id="html_btn" type="button" class="btn btn-outline-dark btn-block">HTML</button></a>
+                    <a href="#css"><button id="css_btn" type="button" class="btn btn-outline-dark btn-block">CSS</button></a>
+                    <a href="#javascript"><button id="javascript_btn" type="button" class="btn btn-outline-dark btn-block">Javascript</button></a>
+                    <a href="#web"><button id="web_btn" type="button" class="btn btn-outline-dark btn-block">Web Design</button></a>
+                    <button id="websoft_btn" type="button" class="btn btn-outline-dark btn-block dropdown-toggle"
+                        data-toggle="dropdown" href="#websoft">Web Designing Softwares</button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item"
+                            href="https://www.computer-pdf.com/89-figma-for-web-design-collaboration-power">Figma</a>
+                        <a class="dropdown-item"
+                            href="https://www.computer-pdf.com/88-adobe-xd-essentials-a-guide-to-streamlined-uiux-design#Designing">Adobe
+                            XD</a>
+                    </div>
+                    <a href="https://www.computer-pdf.com/132-learning-front-end-frameworks-a-beginners-guide"><button id="frontend_btn" type="button" class="btn btn-outline-dark btn-block">Front-end Development</button></a>
+                </div>
+                <br>
+            </div>
+
+        </div>
+        <br>
+
+    <!--Mission Section-->
+        <div class="container">
+            <div class="col-12">
+                <h1 id="mission">MISSION</h1>
+            </div>
+            <div id="m1" class="row">
+                <div class="col-7">
+                    <img src="images/Mission.jpg" class="float-left" alt="Image" width="420px" height="420px">
+                </div>
+                <div id="m2" class="col-5">
+                    <p>"Our mission is to empower individuals worldwide with accessible and innovative online learning solutions that enable them to gain new skills, advance their careers, and achieve their full potential."</p>
+                </div>
+            </div>   
+        </div> 
+
+    <!--Content section-->
+        <div class="container">
+            <div class="col-12">
+                <h1 id="content">CONTENT</h1>
+            </div>
+            <div class="row">
+                <object id="html" data="PDFs/Learning HTML.pdf" type="application/pdf" width="45%" height="400px"></object><br>
+                <object id="css" data="PDFs/Learning CSS.pdf" type="application/pdf" width="45%" height="400px"></object>
+            </div>
+            <br>
+            <div class="row">
+                <object id="javascript" data="PDFs/Learning Javascript.pdf" type="application/pdf" width="45%" height="400px"></object>
+                <object id="web" data="PDFs/Introduction to web design.pdf" type="application/pdf" width="45%" height="400px"></object>
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+    <div class="container-fluid">
+        <footer class="text-center text-white">
+            <div class="container p-4 pb-0"  style="border-top: 1px solid gray;">
+                <section class="mb-2">
+        <!-- Facebook -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+
+        <!-- Instagram -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+        <!-- Linkedin -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+
+        <!-- Github -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </section><br>
+                <div id="contact"><span style="font-weight: bold;">Contact: </span>
+                    <a class="text-white">
+                        <i class="fas fa-envelope pe-2 mb-0"></i>buildingtheweb@gmail.com
+                    </a>
+                </div>
+            </div>
+
+            <div class="text-center p-1" style="background-color: rgba(0, 0, 0, 0.2);">
+                
+                <span style="font-weight: bold;" >&copy;2023 Copyright:</span>
+                <a class="text-white" href="https://buildingtheweb.com/">buildingtheweb.com</a>
+                
+            </div>
+        </footer>
+    
+</body>
+
+</html>
