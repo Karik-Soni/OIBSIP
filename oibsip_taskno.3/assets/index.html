@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="outer">
+        <div class="row">
+          <div class="col-12 col-md-6 offset-md-3">
+            <h1 id="heading" class="text-center mb-3"><span class="temp"><i class="fa fa-thermometer-3"></i></span>Temperature Converter</h1>
+            <div class="container" id="inner">
+              <h4 id="selection">Select unit to convert</h4><br>
+              <button id="Celsiusbtn" type="button" class="btn btn-outline-secondary">Celcius</button>
+              <button id="Fahrenheitbtn" type="button" class="btn btn-outline-secondary">Fahrenheit</button>
+              <button id="Kelvinbtn" type="button" class="btn btn-outline-secondary">Kelvin</button>
+            </div>
+            <form>
+              <div class="form-group">
+                <input id="mainInput" type="number" class="form-control form-control-lg" placeholder="Choose your scale">
+              </div>
+            </form> 
+          </div>
+        </div>
+        <div class="row justify-content-md-center">
+          <div id="firstOutput" class="col col-lg-3">
+            <div class="card border-secondary mb-3">
+              <div class="card-body text-secondary">
+                <h4>: <span id="outPut1"></span></h4>
+              </div>
+            </div>
+          </div>
+          <div id="secondOutput" class="col col-lg-3">
+            <div class="card border-secondary mb-3">
+              <div class="card-body text-secondary">
+                <h4>: <span id="outPut2"></span></h4>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
